@@ -118,6 +118,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
         >
           <Image src={closeBtn} alt="" width={33} height={33} />
         </div>
+       {/* @ts-ignore */}
         <MenuBlock value={footerTranslations.company || COMPANY}
         onClose={onToggleDrawer}
         />
