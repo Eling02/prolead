@@ -122,10 +122,12 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
         <MenuBlock value={footerTranslations.company || COMPANY}
         onClose={onToggleDrawer}
         />
+               {/* @ts-ignore */}
         <MenuBlock
           value={footerTranslations.corporateServices || COMPANY_SERVICE}
            onClose={onToggleDrawer}
         />
+               {/* @ts-ignore */}
         <MenuBlock value={footerTranslations.contactUs || CONTACT_US}
          onClose={onToggleDrawer}
         />
